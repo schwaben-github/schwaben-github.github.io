@@ -1,11 +1,13 @@
 footer {
   display: block;
   background: #98989b;
-  color: white;
+  color: #080808;
   height: 100px;
+  width: 100%;
   margin-top: 20px;
   text-align: center;
-  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 footer p {
