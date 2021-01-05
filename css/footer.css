@@ -12,5 +12,49 @@ footer {
 
 footer p {
   padding-top: 40px;
-  margin-bottom: 0;
+  margin-bottom: 5px;
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, 360px and down) */
+@media only screen and (max-width: 360px) {
+  footer {
+    height: 50px;
+    margin-top: 5px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  footer {
+    height: 60px;
+    padding-bottom: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  footer {
+    height: 70px;
+    padding-bottom: 15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  footer {
+    height: 70px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  footer {
+    height: 80px;
+  }
 }

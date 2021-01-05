@@ -30,17 +30,6 @@
   padding: 20px 50px;
 }
 
-/* display: grid;
-    grid-gap: 40px 90px;
-    grid-template-columns: 1fr 1fr 1fr; /*300px 300px 300px*/
-
-/*grid-template-rows: auto;
-    padding-bottom: 40px;
-    width: 300px;
-    margin: 75px 75px;
-   align-items: center;
-   justify-items: center; */
-
 .card-image img {
   width: 275px;
   height: 215px;

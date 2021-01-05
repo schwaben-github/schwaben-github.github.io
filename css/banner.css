@@ -15,8 +15,31 @@
 
 #banner h1 {
   padding: 0 24px;
+  font-family: "Roboto Slab", serif;
   font-size: 72px;
   font-weight: bolder;
   color: white;
   text-align: center;
+}
+/* Media Queries */
+
+/* Extra small devices (phones, 360px and down) */
+@media (max-width: 360px) {
+/*   #banner {
+    width: 300px; */
+  }
+  #banner h1 {
+    font-size: 30px;
+  }
+}
+
+/* Small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {
+/*   #banner {
+    width: 600px; */
+  }
+  #banner h1 {
+    font-size: 35px;
+    padding-top: 50px;
+  }
 }

@@ -68,19 +68,28 @@ nav h2 {
 
 /* Media Queries */
 
+/* Extra small devices (phones, 330px and down) */
 @media (max-width: 330px) {
   nav h2 {
     font-size: 22px;
   }
-}
 
-@media screen and (min-width: 331px) and (max-width: 450px) {
-  nav h2 {
-    font-size: 22px;
+  .left img {
+    width: 80px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 331px) and (max-width: 640px) {
+  nav h2 {
+    font-size: 22px;
+  }
+
+  .left img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 641px) {
   .nav.responsive {
     position: relative;
   }
@@ -89,6 +98,10 @@ nav h2 {
     float: none;
     display: block;
     text-align: center;
+  }
+
+  .left img {
+    width: 120px;
   }
 }
 
@@ -100,6 +113,10 @@ nav h2 {
   .left {
     display: flex;
     justify-content: flex-start;
+  }
+
+  .left img {
+    width: 150px;
   }
 
   .menu {

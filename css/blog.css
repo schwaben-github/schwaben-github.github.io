@@ -85,34 +85,39 @@
 }
 
 /* Media Queries */
-@media (max-width: 330px) {
+
+@media (max-width: 360px) {
   .article-grid {
     margin: 0 5px;
     padding: 30px 5px;
   }
 
   .bio {
-    gap: 15px;
-    padding: 20px 20px;
+    gap: 10px;
+    padding: 5px 5px;
     margin-left: 10px;
-    width: 80%;
+    width: 40%;
   }
 
   .pic {
-    width: 150px;
+    display: none;
   }
 
   .bio-about {
-    padding: 20px 15px;
-    margin-left: 15px;
+    padding: 5px 5px;
+    margin-left: 0px;
   }
 
   .blog-post {
     font-size: medium;
   }
+
+  .main {
+    margin-top: 5px;
+  }
 }
 
-@media (min-width: 331px) and (max-width: 480px) {
+@media (min-width: 331px) and (max-width: 640px) {
   .bio {
     gap: 20px;
     padding: 30px 10px;
@@ -121,7 +126,7 @@
   }
 
   .pic {
-    width: 200px;
+    width: 100px;
   }
 
   .bio-about {

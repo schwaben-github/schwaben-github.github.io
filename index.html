@@ -7,6 +7,7 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&family=Pirata+One&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <title>Project: Personal Blog</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -22,25 +23,32 @@
         </nav>
     </header>
     <div id="banner">
-        <h1 class="title">Welcome to my blog about church organs!</h1>
+        <h1>Welcome to my blog about church organs!</h1>
     </div><br>
 
-    <div class="small">
-        <em>About Photo:</em> Image of <a
-            href="https://pixabay.com/users/taken-336382/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3919930">Organ
-            Pipes</a> from <a
-            href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3919930">Pixabay</a>
-    </div><br>
+    <figure class="caption">
+        <div class="small">
+            <em>About Photo:</em> Image of <a
+                href="https://pixabay.com/users/taken-336382/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3919930">Organ
+                Pipes</a> from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3919930">Pixabay</a>
+        </div><br>
+    </figure>
+
     <main>
         <h2 class="section-heading" id="blog">Blog</h2>
         <section>
             <div class="grid-container">
                 <div class="column">
                     <div class="card">
-                        <div class="card-image"><img alt="Wooden organ from Valpovo"
-                                src="./img/drvene-orgulje-valpovo.jpg"></div>
+                        <div class="card-image">
+                            <figure><img alt="an image showing wooden organ from valpovo, croatia"
+                                    src="./img/drvene-orgulje-valpovo.jpg">
+                        </div>
+                        <figcaption>Wooden organ from Valpovo</figcaption>
+                        </figure>
                         <div class="card-description">
-                            <h3>Wooden organ from Valpovo</h3>
+                            <h3>Valpovo</h3>
                             <p>Valpovo is a town in Slavonia, Croatia. It is close to the Drava river
                                 in the region of Slavonia, 25 km northwest of Osijek.</p>
                             <button onclick="document.location='blog.html'" button class="btn-viewmore">View
@@ -50,7 +58,11 @@
                 </div>
                 <div class="column">
                     <div class="card">
-                        <div class="card-image"><img alt="organ in Djakovo Croatia" src="./img/orgulje-djakovo.jpg">
+                        <div class="card-image">
+                            <figure><img alt="an image showing organ in the cathedral of djakovo croatia"
+                                    src="./img/orgulje-djakovo.jpg">
+                                <figcaption>Organ in Djakovo Croatia</figcaption>
+                            </figure>
                         </div>
                         <div class="card-description">
                             <h3>Đakovo</h3>
@@ -63,10 +75,14 @@
                 </div>
                 <div class="column">
                     <div class="card">
-                        <div class="card-image"><img alt="organ in Zagreb cathedral" src="./img/orgulje-zagreb.jpg">
+                        <div class="card-image">
+                            <figure><img alt="an image showing organ in the cathedral of zagreb, capital of croatia"
+                                    src="./img/orgulje-zagreb.jpg">
+                                <figcaption>Organ in Zagreb cathedral</figcaption>
+                            </figure>
                         </div>
                         <div class="card-description">
-                            <h3>Zagreb cathedral</h3>
+                            <h3>Zagreb</h3>
                             <p>Zagreb Cathedral, on the Kaptol, is a Roman
                                 Catholic institution
                                 and not only the tallest building in Croatia...</p>
@@ -79,9 +95,7 @@
         </section>
     </main>
     <footer>
-        <div class="container">
-            <p><em><strong>Made by Tibor Weigand &copy; 2021</strong></em></p>
-        </div>
+        <p>Made by Tibor Weigand &copy; 2021</p>
     </footer>
 </body>
 
