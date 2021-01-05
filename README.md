@@ -1,4 +1,4 @@
-# Udacity Front End Developer Nanodegree Program
+# Udacity Front End Developer Nanodegree Program Project
 ## Project 1: Personal Blog
 
 ### Introduction
@@ -12,10 +12,9 @@ Following pages are accessible via GitHub Pages:
 - [Homepage](https://schwaben-github.github.io/index.html)
 - [About/Blog page](https://schwaben-github.github.io/blog.html)
 
-### Dependencies:
+### Technologies used
 - HTML
 - CSS
-- Google Fonts
 
 ### Images
 - Image of Organ Pipes from Pixabay with attribution
@@ -35,3 +34,4 @@ Following pages are accessible via GitHub Pages:
 ### Other tools
 - GitHub
 - GitHub Desktop
+- Google Fonts
